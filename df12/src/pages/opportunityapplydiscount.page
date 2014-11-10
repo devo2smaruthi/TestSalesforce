@@ -9,7 +9,7 @@
 	</apex:pageBlockSection>
 	<apex:pageBlockSection title="Discount">
 		<apex:pageBlockSectionItem >
-			This process will discount this opportunity and lines Added comment by manish.
+			This process will discount this opportunity and lines Added comment by sujith.
 			Added one more line here by manish. Updated again. Updated again.
 >>>>>>> branch 'KFC' of https://github.com/devo2smaruthi/TestSalesforce.git
 		</apex:pageBlockSectionItem>
