@@ -9,7 +9,8 @@
 	</apex:pageBlockSection>
 	<apex:pageBlockSection title="Discount">
 		<apex:pageBlockSectionItem >
-			This process will discount this opportunity and any lines Added comment by manish.
+			This process will discount this opportunity and lines Added comment by manish.
+			Added one more line here by manish.
 		</apex:pageBlockSectionItem>
 		<apex:pageBlockSectionItem >
 			<apex:form >
