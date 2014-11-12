@@ -41,3 +41,21 @@ public with sharing class Accounts extends SObjectDomain
 		}
 	}
 }
+
+public with sharing class Accounts extends asdf
+{
+	public Accounts(List<Account> sObjectList)
+	{
+		// Domain classes are initialised with lists to enforce bulkification throughout
+		super(sObjectList);
+	}
+	
+	public void updateOpportunityActivity(SObjectUnitOfWork uow)
+	{
+		for(Account account : (List<Account>) Records)
+		{
+			account.Description = 'Last Opportunity Raised ' + System.today();
+			uow.registerDirty(account);
+		}
+	}
+}
